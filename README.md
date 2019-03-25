@@ -1,30 +1,26 @@
-[![Build Status](https://travis-ci.org/atotto/travisci-golang-example.png)](https://travis-ci.org/atotto/travisci-golang-example)
+[![CircleCI](https://circleci.com/gh/atotto/circleci-golang-example.svg?style=svg)](https://circleci.com/gh/atotto/circleci-golang-example)
 
-# Travis-CI example for Go
-
-This is "go get"-able project and Travis-CI buildable.
-
+# circleci example for Go
 
 ## Local Build and Test
 
 You can use go get command: 
 
-    go get github.com/atotto/travisci-golang-example 
+    go get github.com/atotto/circleci-golang-example
 
 Testing:
 
-    go test github.com/atotto/travisci-golang-example 
+    go test github.com/atotto/circleci-golang-example
 
 
-## Travis-CI
+## Circle CI
 
-You can see a build status: https://travis-ci.org/atotto/travisci-golang-example
-
+You can see a build status: https://circleci.com/gh/atotto/circleci-golang-example
 
 
 ## References
 
-Building a Go Project: http://about.travis-ci.org/docs/user/languages/go/
+circleci documents:
 
-How to Write Go Code: http://golang.org/doc/code.html
-
+- https://circleci.com/docs/2.0/language-go/
+- https://circleci.com/docs/2.0/caching/
