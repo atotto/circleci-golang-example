@@ -24,3 +24,4 @@ circleci documents:
 
 - https://circleci.com/docs/2.0/language-go/
 - https://circleci.com/docs/2.0/caching/
+- https://circleci.com/docs/2.0/workflows/
